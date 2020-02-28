@@ -48,10 +48,8 @@
             "ap-northeast-1" => %{},
             "ap-southeast-1" => %{},
             "ap-southeast-2" => %{},
-            "ca-central-1" => %{},
             "eu-central-1" => %{},
             "eu-west-1" => %{},
-            "eu-west-3" => %{},
             "us-east-1" => %{},
             "us-east-2" => %{},
             "us-west-1" => %{},
@@ -199,22 +197,6 @@
             "us-east-2" => %{},
             "us-west-1" => %{},
             "us-west-2" => %{}
-          }
-        },
-        "ingest.timestream" => %{
-          "endpoints" => %{
-            "us-east-1" => %{},
-            "us-east-2" => %{},
-            "us-west-2" => %{},
-            "eu-west-1" => %{}
-          }
-        },
-        "query.timestream" => %{
-          "endpoints" => %{
-            "us-east-1" => %{},
-            "us-east-2" => %{},
-            "us-west-2" => %{},
-            "eu-west-1" => %{}
           }
         },
         "translate" => %{
@@ -698,7 +680,6 @@
             "ap-southeast-2" => %{},
             "eu-central-1" => %{},
             "eu-west-1" => %{},
-            "eu-west-2" => %{},
             "us-east-1" => %{},
             "us-east-2" => %{},
             "us-west-2" => %{}
@@ -1441,14 +1422,7 @@
             "eu-west-1" => %{},
             "us-east-1" => %{},
             "us-east-2" => %{},
-            "us-west-2" => %{},
-            "ap-south-1" => %{},
-            "ap-northeast-2" => %{},
-            "ap-southeast-1" => %{},
-            "ap-southeast-2" => %{},
-            "ap-northeast-1" => %{},
-            "ca-central-1" => %{},
-            "us-gov-west-1" => %{}
+            "us-west-2" => %{}
           }
         },
         "textract" => %{
@@ -1545,15 +1519,11 @@
             "ap-northeast-1" => %{},
             "ap-south-1" => %{},
             "ap-southeast-1" => %{},
-            "ap-southeast-2" => %{},
             "eu-central-1" => %{},
             "eu-west-1" => %{},
             "eu-west-2" => %{},
             "us-east-1" => %{},
-            "us-east-2" => %{},
-            "us-west-2" => %{},
-            "ca-central-1" => %{},
-            "sa-east-1" => %{}
+            "us-west-2" => %{}
           }
         },
         "storagegateway" => %{
@@ -2236,11 +2206,11 @@
           "endpoints" => %{
             "us-gov-east-1-fips" => %{
               "credentialScope" => %{"region" => "us-gov-east-1"},
-              "hostname" => "dynamodb.us-gov-east-1.amazonaws.com"
+              "host" => "dynamodb.us-gov-east-1.amazonaws.com"
             },
             "us-gov-west-1-fips" => %{
               "credentialScope" => %{"region" => "us-gov-west-1"},
-              "hostname" => "dynamodb.us-gov-west-1.amazonaws.com"
+              "host" => "dynamodb.us-gov-west-1.amazonaws.com"
             },
             "us-gov-east-1" => %{},
             "us-gov-west-1" => %{}
@@ -2251,11 +2221,11 @@
           "endpoints" => %{
             "us-gov-east-1-fips" => %{
               "credentialScope" => %{"region" => "us-gov-east-1"},
-              "hostname" => "dynamodb.us-gov-east-1.amazonaws.com"
+              "host" => "dynamodb.us-gov-east-1.amazonaws.com"
             },
             "us-gov-west-1-fips" => %{
               "credentialScope" => %{"region" => "us-gov-west-1"},
-              "hostname" => "dynamodb.us-gov-west-1.amazonaws.com"
+              "host" => "dynamodb.us-gov-west-1.amazonaws.com"
             },
             "us-gov-east-1" => %{},
             "us-gov-west-1" => %{}
@@ -2286,7 +2256,7 @@
               "credentialScope" => %{"region" => "us-gov-east-1"},
               "hostname" => "ecr-fips.us-gov-east-1.amazonaws.com"
             },
-            "fips-us-gov-west_fips-1" => %{
+            "fips-us-gov-west-1" => %{
               "credentialScope" => %{"region" => "us-gov-west-1"},
               "hostname" => "ecr-fips.us-gov-west-1.amazonaws.com"
             },
